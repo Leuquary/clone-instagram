@@ -1,0 +1,47 @@
+.container_post{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+}
+.post_content{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.like_share_comment{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.icons span{
+    font-size: 30px;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imagem{
+    width: inherit;
+    height: inherit;
+    border: 1px solid #b6b6b680;
+    border-radius: 5px;
+}
+.imagem img{
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.description{
+    display: flex;
+    gap: 10px;
+}
+.description p{
+    line-height: 1.5;
+}

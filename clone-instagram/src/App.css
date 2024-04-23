@@ -1,0 +1,22 @@
+.App{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "esquerda centro direita"
+    "esquerda centro direita"
+    "esqueda centro direita";
+}
+
+
+.lateral_esquerda{
+    grid-area: esquerda;
+}
+
+.lateral_direita{
+    grid-area: direita;
+}
+
+
+.conteudo_central{
+    grid-area: centro;
+}

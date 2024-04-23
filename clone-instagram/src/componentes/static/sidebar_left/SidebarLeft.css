@@ -1,0 +1,28 @@
+.logo h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.container_sidebar_left{
+    width: inherit;
+    height: 100vh;
+    border-right: 0.1em solid #a3a3a39d;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+}
+.menu .list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list li{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}

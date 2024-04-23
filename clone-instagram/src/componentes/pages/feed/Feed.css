@@ -1,0 +1,5 @@
+.container_feed{
+    width: inherit;
+    height: 100vh;
+    overflow-y: auto;
+}
