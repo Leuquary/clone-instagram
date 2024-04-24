@@ -1,10 +1,11 @@
 import React from 'react';
 import './Feed.css';
 import Post from '../post/Post';
+import Imagem from '../assets/post.jpg';
 
 var posts = [
     {
-        imagem: "../assets/post.jpg",
+        imagem: Imagem,
         descricao: "Descrição do post"
     }
 ]
@@ -14,7 +15,7 @@ export default function Feed(){
         <div className='container_feed'>
             {
                 posts.map((post) => {
-                    return <Post imagemPost={post.imagem} descricao={post.descricao}></Post>
+                    return <Post imagem={post.imagem} descricao={post.descricao}></Post>
                 })
             }
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Profile from '../../pages/profile/Profile';
 import './SidebarRight.css';
-import ImageProfile from '../assets/perfil.jpg';
+import Imagem from '../assets/perfil.jpg';
 
 var profiles = [
     {
@@ -22,14 +22,14 @@ export default function SidebarRight(){
     return(
         <div className='container_sidebar_right'>
             <div className='my_profile'>
-                <Profile nome="raquel" legenda="Raquel" imagem={ImageProfile}></Profile>
+                <Profile nome="raquel" legenda="Raquel" imagem={Imagem}></Profile>
             </div>
             <div className='suggestion'>
                 <h4>Sugestões para você</h4>
                 <div className='list_suggestion'>
                     {   
                         profiles.map((profile) => {
-                            return <Profile imagemPerfil={ImageProfile} nome={profile.nome} legenda={profile.legenda}></Profile>
+                            return <Profile imagem={Imagem} nome={profile.nome} legenda={profile.legenda}></Profile>
                         })
                     }
                 </div>

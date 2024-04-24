@@ -5,7 +5,7 @@ export default function Post(props){
     return(
         <div className='container_post'>
             <figure className='imagem'>
-                <img src={props.imagemPost} alt="Imagem do Post" />
+                <img src={props.imagem} alt="Imagem do Post" />
             </figure>
             <div className='post_content'>
                 <div className='icons'>
