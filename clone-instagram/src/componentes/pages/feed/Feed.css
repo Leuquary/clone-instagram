@@ -1,5 +1,7 @@
 .container_feed{
-    width: inherit;
-    height: 100vh;
-    overflow-y: auto;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
 }
+

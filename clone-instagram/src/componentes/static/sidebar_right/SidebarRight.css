@@ -1,16 +1,26 @@
 .container_sidebar_right{
     width: inherit;
-    height: 100vh;
+    margin-top: 46px;
+    margin-left: 80px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.suggestion{
+.sidebar_right{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+.suggestion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.suggestion h4{
+    color: #888888;
+    font-weight: 500;
+}
 .list_suggestion{
     display: flex;
     flex-direction: column;

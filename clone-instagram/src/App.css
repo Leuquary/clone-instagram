@@ -1,22 +1,22 @@
 .App{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 20vw 80vw;
     grid-template-areas: 
-    "esquerda centro direita"
-    "esquerda centro direita"
-    "esqueda centro direita";
+    "esquerda conteudo"
+    "esquerda conteudo";
 }
-
 
 .lateral_esquerda{
     grid-area: esquerda;
 }
 
-.lateral_direita{
-    grid-area: direita;
+.conteudo{
+    grid-area: conteudo;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: auto;
 }
-
-
-.conteudo_central{
-    grid-area: centro;
+.conteudo::-webkit-scrollbar{
+    width: 0;
 }
