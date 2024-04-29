@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 22vw;
+    cursor: pointer;
 }
 .profile_datas{
     display: flex;
